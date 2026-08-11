@@ -1128,38 +1128,321 @@ footer p{
 
 @media(max-width:576px){
 
-.hero{
-    padding-top:140px;
-}
+    /* MOBILE - COMPACT PREMIUM */
 
-.hero h1{
-    font-size:34px;
-}
+    section{
+        padding:55px 0;
+    }
 
-.hero p{
-    font-size:16px;
-}
+    .container{
+        padding-left:16px;
+        padding-right:16px;
+    }
 
-.hero-info{
-    gap:25px;
-}
+    /* Navbar */
+    .navbar{
+        padding:10px 0;
+    }
 
-.hero-car{
-    height:240px;
-}
+    .navbar-brand{
+        font-size:26px;
+    }
 
-.summary-image{
-    height:150px;
-}
+    /* Hero */
+    .hero{
+        padding-top:100px;
+        padding-bottom:45px;
+    }
 
-.booking-left,
-.booking-right{
-    padding:18px;
-}
+    .hero h1{
+        font-size:30px;
+        line-height:1.2;
+    }
 
-.payment-box{
-    padding:25px;
-}
+    .hero p{
+        font-size:14px;
+        line-height:22px;
+        margin:15px 0;
+    }
+
+    .hero-buttons{
+        margin-top:20px;
+        gap:10px;
+    }
+
+    .hero-info{
+        gap:18px;
+        margin-top:30px;
+    }
+
+    .hero-info h3{
+        font-size:25px;
+    }
+
+    .hero-info p{
+        font-size:12px;
+    }
+
+    .hero-car{
+        width:95%;
+        height:200px;
+        border-radius:16px;
+    }
+
+    /* Section headings */
+    .section-title{
+        margin-bottom:30px;
+    }
+
+    .section-title h2{
+        font-size:28px;
+    }
+
+    .section-title p{
+        font-size:14px;
+    }
+
+    /* Fleet cards */
+    .car-card{
+        border-radius:16px;
+    }
+
+    .car-card img{
+        height:190px;
+    }
+
+    .car-content{
+        padding:18px;
+    }
+
+    .car-content h4{
+        font-size:21px;
+        margin-bottom:10px;
+    }
+
+    .car-content p{
+        font-size:14px;
+        line-height:25px;
+        margin-bottom:14px;
+    }
+
+    .car-content h5{
+        font-size:25px;
+        margin-bottom:15px;
+    }
+
+    .book-btn{
+        padding:10px 15px;
+        font-size:15px;
+    }
+
+    /* Why choose us */
+    .feature-box{
+        padding:25px 18px;
+    }
+
+    .feature-box i{
+        font-size:38px;
+        margin-bottom:12px;
+    }
+
+    .feature-box h4{
+        font-size:19px;
+    }
+
+    .feature-box p{
+        font-size:14px;
+        line-height:24px;
+    }
+
+    /* Booking */
+    .booking-card{
+        gap:15px;
+        padding:12px;
+        border-radius:16px;
+    }
+
+    .booking-left,
+    .booking-right{
+        padding:15px;
+        border-radius:14px;
+    }
+
+    .booking-left label{
+        font-size:13px;
+        margin-bottom:5px;
+    }
+
+    .form-control{
+        padding:10px 12px;
+        min-height:44px;
+        font-size:14px;
+        border-radius:10px;
+    }
+
+    .booking-note{
+        margin-top:15px;
+        padding:12px;
+        font-size:12px;
+        line-height:21px;
+    }
+
+    /* Booking summary */
+    .booking-right{
+        margin-top:0;
+    }
+
+    .summary-image{
+        height:120px;
+        margin-bottom:12px;
+        border-radius:10px;
+    }
+
+    .booking-right h4{
+        font-size:20px;
+    }
+
+    #priceDay{
+        font-size:18px;
+        margin-bottom:10px;
+    }
+
+    .booking-right hr{
+        margin:10px 0;
+    }
+
+    .summary-row{
+        padding:5px 0;
+        font-size:13px;
+    }
+
+    .summary-row strong{
+        font-size:14px;
+    }
+
+    .total-row{
+        padding:10px 0;
+    }
+
+    .total-row span{
+        font-size:16px;
+    }
+
+    #summaryPrice{
+        font-size:23px;
+    }
+
+    /* Payment */
+    .payment-box-small{
+        margin-top:12px;
+    }
+
+    .payment-box-small h6{
+        font-size:15px;
+        margin-bottom:8px;
+    }
+
+    .payment-option{
+        gap:8px;
+        padding:9px;
+        margin-bottom:7px;
+        border-radius:10px;
+    }
+
+    .payment-option strong{
+        font-size:13px;
+    }
+
+    .payment-option small{
+        font-size:11px;
+        line-height:17px;
+    }
+
+    #bookBtn{
+        margin-top:12px;
+        padding:11px;
+        font-size:14px;
+    }
+
+    .secure-note{
+        font-size:11px;
+    }
+
+    /* Documents */
+    .doc-card{
+        padding:22px 15px;
+    }
+
+    .doc-card i{
+        font-size:36px;
+    }
+
+    .doc-card h5{
+        font-size:16px;
+    }
+
+    /* Payment info */
+    .payment-box{
+        padding:20px;
+    }
+
+    .payment-box p{
+        font-size:14px;
+        line-height:24px;
+    }
+
+    /* FAQ */
+    .accordion-button{
+        font-size:14px;
+        padding:13px;
+    }
+
+    .accordion-body{
+        font-size:13px;
+        line-height:23px;
+    }
+
+    /* Reviews */
+    .review-card{
+        padding:20px;
+    }
+
+    .review-card p{
+        font-size:14px;
+        line-height:24px;
+    }
+
+    /* Contact */
+    .contact h2{
+        font-size:28px;
+    }
+
+    .contact p{
+        font-size:14px;
+        line-height:24px;
+    }
+
+    /* Footer */
+    footer{
+        padding:30px 0;
+    }
+
+    footer h3{
+        font-size:25px;
+    }
+
+    footer p{
+        font-size:13px;
+    }
+
+    /* WhatsApp */
+    .whatsapp{
+        width:54px;
+        height:54px;
+        right:15px;
+        bottom:15px;
+        font-size:27px;
+    }
 
 }
 /* ===========================
