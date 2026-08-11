@@ -43,13 +43,13 @@ const bookBtn = document.getElementById("bookBtn");
 
 const prices = {
 
-    "Baleno Automatic":1600,
+    "Baleno Automatic":1300,
 
-    "Baleno Manual":1400,
+    "Baleno Manual":1200,
 
-    "Swift Automatic":1500,
+    "Swift Automatic":1200,
 
-    "Swift Manual":1300,
+    "Swift Manual":1100,
 
     "Fronx":2200,
 
