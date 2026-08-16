@@ -43,15 +43,27 @@ const bookBtn = document.getElementById("bookBtn");
 
 const prices = {
 
-    "Baleno Automatic":1300,
+    "Baleno Automatic":1700,
 
-    "Baleno Manual":1200,
+    "Baleno Manual":1500,
 
-    "Swift Automatic":1200,
+    "Swift Automatic":1600,
 
-    "Swift Manual":1100,
+    "Swift Manual":1200,
+
+    "Hyundai i20 Automatic":1800,
+
+    "Hyundai i20 Manual":1500,
+
+    "Swift Dzire Automatic":1800,
+
+    "Swift Dzire Manual":1500,
 
     "Fronx":2200,
+
+    "Thar Automatic":4000,
+
+    "Thar Manual":3500,
 
     "Innova Crysta":3700
 
@@ -71,8 +83,20 @@ const images = {
 
     "Swift Manual":"images/swift-manual.jpg",
 
+    "Hyundai i20 Automatic":"images/i20-auto.jpg",
+
+    "Hyundai i20 Manual":"images/i20-manual.jpg",
+
     "Fronx":"images/fronx.jpg",
 
+    "Swift Dzire Automatic":"images/swiftdzire-auto.jpg",
+
+    "Swift Dzire Manual":"images/swiftdzire-manual.jpg",
+
+    "Thar Automatic":"images/thar-automatic.jpg",
+    
+    "Thar Manual":"images/thar-manual.jpg",
+    
     "Innova Crysta":"images/innova-crysta.jpg"
 
 };
