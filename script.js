@@ -163,12 +163,12 @@ function calculateBooking(){
 
     // Extra day after 09:00 
 
-    if(returnTime.value !== "09:00"){
+    if(returnTime.value > "09:00"){
 
         days++;
 
     }
-    // Extra rental day for pickup before 07:00 AM
+    // Extra rental day for pickup before 07:00 
 
     if(pickupTime.value < "07:00"){
 
