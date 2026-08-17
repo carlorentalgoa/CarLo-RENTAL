@@ -21,6 +21,9 @@ const returnTime = document.getElementById("returnTime");
 const pickupLocation = document.getElementById("pickupLocation");
 const returnLocation = document.getElementById("returnLocation");
 
+const pickupOther = document.getElementById("pickupOther");
+const returnOther = document.getElementById("returnOther");
+
 const messageInput = document.getElementById("message");
 
 // ==========================================
@@ -158,11 +161,18 @@ function calculateBooking(){
 
     }
 
-    // Extra day after 09:00 AM
+    // Extra day after 09:00 
 
-    if(returnTime.value !== "09:00 AM"){
+    if(returnTime.value !== "09:00"){
 
         days++;
+
+    }
+    // Extra rental day for pickup before 07:00 AM
+
+    if(pickupTime.value < "07:00"){
+
+    days++;
 
     }
 
@@ -193,6 +203,28 @@ returnDate.addEventListener("change", calculateBooking);
 pickupTime.addEventListener("change", calculateBooking);
 
 returnTime.addEventListener("change", calculateBooking);
+
+pickupLocation.addEventListener("change", function(){
+
+    if(this.value === "Other"){
+        pickupOther.style.display = "block";
+    }else{
+        pickupOther.style.display = "none";
+        pickupOther.value = "";
+    }
+
+});
+
+returnLocation.addEventListener("change", function(){
+
+    if(this.value === "Other"){
+        returnOther.style.display = "block";
+    }else{
+        returnOther.style.display = "none";
+        returnOther.value = "";
+    }
+
+});
 
 // ==========================================
 // BOOK NOW BUTTONS
@@ -290,9 +322,17 @@ bookBtn.addEventListener("click", function (e) {
 📅 Return Date: ${returnDate.value}
 🕘 Return Time: ${returnTime.value}
 
-📍 Pickup Location: ${pickupLocation.value}
+📍 Pickup Location: ${
+    pickupLocation.value === "Other"
+    ? pickupOther.value
+    : pickupLocation.value
+}
 
-📍 Return Location: ${returnLocation.value}
+📍 Return Location: ${
+    returnLocation.value === "Other"
+    ? returnOther.value
+    : returnLocation.value
+}
 
 ✈️ Flight Number: ${flightInput.value || "Not Provided"}
 
