@@ -46,13 +46,13 @@ const bookBtn = document.getElementById("bookBtn");
 
 const prices = {
 
-    "Baleno Automatic":1400,
+    "Baleno Automatic":1600,
 
-    "Baleno Manual":1300,
+    "Baleno Manual":1400,
 
     "Swift Automatic":1500,
 
-    "Swift Manual":1200,
+    "Swift Manual":1300,
 
     "Hyundai i20 Automatic":1800,
 
